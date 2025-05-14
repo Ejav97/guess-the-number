@@ -1,0 +1,31 @@
+body{
+    background-color: rgba(0, 255, 255, 0.397);
+    text-align: center;
+}
+
+.card {
+    width: 300px;
+    margin: 100px auto;               
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;                      
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.8);
+    font-size: 18px;
+    background-color: #f9f9f9;       
+}
+
+button{
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 6px;
+    border-style: none;
+    background-color: rgba(0, 255, 255, 0.397);
+}
+
+button:hover{
+    transform: scale(1.15);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.8);
+}
